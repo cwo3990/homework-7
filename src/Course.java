@@ -6,7 +6,6 @@ import src.Visitor_Subsystem.BreakdownVisitor;
 
 public class Course {
     private String name;
-    private String code;
     private Student[] students;
 
     public Course(String name, Student[] students) {
@@ -20,10 +19,6 @@ public class Course {
 
     public String getName() {
         return name;
-    }
-
-    public String getCode() {
-        return code;
     }
 
     public Student[] getStudents() {
